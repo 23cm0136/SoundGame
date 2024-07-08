@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/jibanyanbackground00"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="50sp"-->
+<!--        android:typeface="monospace"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="音の神経衰弱" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23CM0136 モンカ" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/title01" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/neko02" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:textSize="36sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/teal_200"
+            android:text="Easy" />
+
+
+        <TextView
+            android:id="@+id/txtRankEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/purple_200"
+            android:text="EasyMode Best:" />
+
+        <Button
+            android:id="@+id/btnHard"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:textSize="36sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/teal_200"
+            android:text="Hard" />
+
+        <TextView
+            android:id="@+id/txtRankHard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/purple_200"
+            android:text="HardMode Best:" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
